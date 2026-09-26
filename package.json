@@ -1,0 +1,25 @@
+{
+  "name": "donaciones-web",
+  "version": "1.0.0",
+  "description": "API y plataforma para gestión de donaciones",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "express",
+    "donaciones",
+    "jest",
+    "ci-cd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
